@@ -41,7 +41,6 @@ body{
     font-size: 1.5rem;
     text-decoration: none;
     text-align: center;
-
 }
 
 .apresentacao{
@@ -56,7 +55,6 @@ body{
     display: flex;
     flex-direction: column;
     gap: 40px;
-
 }
 
 .subtitulo{
@@ -80,7 +78,6 @@ body{
     font-family: "Krona One", serif;
     font-weight: 400;
     font-size: 1.5rem;
-
 }
 
 .apresentacao__links{
@@ -94,7 +91,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
-    border:3px solid var(--cor-secundaria) ;
+    border:3px solid var(--cor-secundaria);
     width: 50%;
     text-align: center;
     border-radius: 8px;
@@ -166,7 +163,100 @@ body{
     object-fit: cover;
 }
 
+.portfolios {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.portfolios__titulo {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--cor-terciaria);
+    margin-bottom: 10px;
+}
+
+.portfolios__subtitulo {
+    text-align: center;
+    font-size: 18px;
+    color: var(--cor-terciaria);
+    margin-bottom: 30px;
+}
+
+.portfolios__galeria {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.portfolio__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio__item:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio__descricao {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.portfolio__descricao h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--cor-terciaria);
+    margin-bottom: 10px;
+}
+
+.portfolio__descricao ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.portfolio__descricao ul li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--cor-terciaria);
+}
+
+.portfolio__descricao__alerta {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--cor-terciaria);
+}
+
+.portfolio__imagem {
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+    border: 3px solid var(--cor-secundaria);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio__imagem:hover {
+    transform: scale(1.05);
+}
 
 @media(max-width: 1200px){
 

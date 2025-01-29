@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__link">Home</a>
+            <a href="about.html" class="cabecalho__menu__link">Sobre Mim</a>
+            <a href="certificados.html" class="cabecalho__menu__link">Certificados</a>
+            <a href="portfolio.html" class="cabecalho__menu__link">Portfólio</a>
+        </nav>
+    </header>
+
+    <main class="portfolios">
+        <h1 class="portfolios__titulo">Portfólio de Projetos</h1>
+        <p class="portfolios__subtitulo">Aqui você encontrará alguns dos meus projetos em desenvolvimento. Sinta-se à vontade para explorá-los!</p>
+        
+        <section class="portfolios__galeria">
+            <div class="portfolio__list">
+                <div class="portfolio__item">
+                    <div class="portfolio__descricao">
+                        <h2>Dashboard Power BI</h2>
+                        <ul>
+                            <li>Coleta de dados de diferentes sistemas.</li>
+                            <li>Transformação e limpeza no Power Query.</li>
+                            <li>Criação de medidas em DAX para análise.</li>
+                            <li>Design focado em clareza e interação.</li>
+                        </ul>
+                        <p class="portfolio__descricao__alerta">* Trabalho em andamento</p>
+                    </div>
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiNDE2ODZiZTgtZmI1MC00NjUxLWJjNmMtZjQ4ZDIzNDc5YmJiIiwidCI6ImQ4NzAxMjA2LTFkZDQtNDQwMC04OTUxLTI2N2VmY2RhZTliZSJ9" 
+                       target="_blank">
+                        <img src="./Assets/Dashboard.png" alt="Imagem do Dashboard" class="portfolio__imagem">
+                    </a>
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__descricao">
+                        <h2>Amigo Secreto - JavaScript</h2>
+                        <ul>
+                            <li><strong>Manipulação do DOM (Document Object Model):</strong> Uso de <code>document.getElementById()</code>, <code>document.createElement()</code>, <code>innerHTML</code>, e manipulação de listas dinâmicas.</li>
+                            <li><strong>Estruturas de Controle e Lógica Condicional:</strong> Uso de <code>if</code> e <code>else</code> para controlar o fluxo do programa e validar entradas.</li>
+                            <li><strong>Arrays e Métodos de Manipulação:</strong> Uso de arrays para armazenar os amigos e manipulação com <code>push()</code>, <code>includes()</code>, <code>length</code>, e <code>forEach()</code>.</li>
+                            <li><strong>Geração de Números Aleatórios:</strong> Uso de <code>Math.random()</code> e <code>Math.floor()</code> para gerar sorteios aleatórios.</li>
+                            <li><strong>Template Literals:</strong> Uso de template literals (<code>`</code>) para facilitar a interpolação de variáveis dentro de strings, como em mensagens de saída.</li>
+                        </ul>
+                        <p class="portfolio__descricao__alerta">* Trabalho em andamento</p>
+                    </div>
+                    <a href="https://amigo-secreto-two-rho.vercel.app/" 
+                       target="_blank">
+                        <img src="./Assets/amigo.png" alt="Imagem do Dashboard" class="portfolio__imagem">
+                    </a>
+                </div>
+
+                <div class="portfolio__item">
+                    <div class="portfolio__descricao">
+                        <h2>Numero Secreto - JavaScript</h2>
+                        <ul>
+                            <li><strong>Manipulação do DOM (Document Object Model):</strong> Utilização de métodos como <code>document.querySelector()</code> e <code>innerHTML</code> para interagir com a página e exibir mensagens e resultados.</li>
+                            <li><strong>Funções de Aleatoriedade:</strong> Implementação de lógica para gerar números aleatórios e evitar a repetição de números com a função <code>gerarNumeroAleatorio()</code>.</li>
+                            <li><strong>Controle de Fluxo:</strong> Uso de estruturas condicionais <code>if</code> e <code>else</code> para validar o chute do usuário e exibir mensagens apropriadas.</li>
+                            <li><strong>Contagem de Tentativas:</strong> Acompanhamento do número de tentativas feitas pelo usuário para mostrar o resultado após a vitória.</li>
+                            <li><strong>Função de Reinício:</strong> Implementação de uma função de reinício do jogo para permitir que o jogador comece novamente sem recarregar a página.</li>
+                            <li><strong>Uso de Bibliotecas de Voz:</strong> Integração com o <a href="https://responsivevoice.org/" target="_blank">ResponsiveVoice</a> para feedbacks de voz em português durante o jogo.</li>
+                        </ul>
+                        <p class="portfolio__descricao__alerta">* Trabalho em andamento</p>
+                    </div>
+                    <a href="https://jogo-do-numero-secreto-gamma-lime.vercel.app/" 
+                       target="_blank">
+                        <img src="./Assets/numero.png" alt="Imagem do Dashboard" class="portfolio__imagem">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por CleutonS.</p>
+    </footer>
+</body>
+</html>
+
