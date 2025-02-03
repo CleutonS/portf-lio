@@ -269,13 +269,13 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: auto;
+    gap: 24px;
     justify-content: center;
     
 }
 
 .cabecalho__menu__link{
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .apresentacao{
@@ -287,13 +287,37 @@ body{
     width: auto;
 }
 
+.apresentacao__links__subtitulo{
+    text-align: center;
+}
+
+.apresentacao__links{
+    gap: 16px;
+}
+
 .apresentacao__links__navegacao{
     gap: 8px;
     border:3px solid var(--cor-secundaria);
-    width: 50%;
+    width: 100%;
     border-radius: 8px;
-    font-size: 1rem;
-    padding: 10px 8px; 
+    font-size: 0.8rem;
+    padding: 2px 2px 2px 2px; 
+}
+
+.apresentacao__imagem{
+    width:auto;
+}
+
+.subtitulo{
+    text-align: center;
+}
+
+.apresentacao__conteudo__titulo{
+   text-align: center;
+}
+
+.apresentacao__conteudo__texto{
+    text-align:center;
 }
 
 .imagem__certificado{
