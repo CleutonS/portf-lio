@@ -31,7 +31,7 @@ body{
     gap: 70px;
     border-bottom: 1px solid #fff;
     padding-bottom: 15px;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 .cabecalho__menu__link{
@@ -151,8 +151,8 @@ body{
 
 .imagem__certificado{
     margin: 0 0 30px;
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 350px;
     border: 10px solid #fff;
     box-shadow: 5px 5px 5px var(--cor-hover);
 }
@@ -171,7 +171,7 @@ body{
 
 .portfolios__titulo {
     text-align: center;
-    font-size: 28px;
+    font-size: 2rem;
     font-weight: bold;
     color: var(--cor-terciaria);
     margin-bottom: 10px;
@@ -179,7 +179,7 @@ body{
 
 .portfolios__subtitulo {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.5rem;
     color: var(--cor-terciaria);
     margin-bottom: 30px;
 }
@@ -193,7 +193,7 @@ body{
 .portfolio__list {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     padding: 20px;
 }
 
@@ -222,7 +222,7 @@ body{
 }
 
 .portfolio__descricao h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--cor-terciaria);
     margin-bottom: 10px;
@@ -234,13 +234,13 @@ body{
 }
 
 .portfolio__descricao ul li {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
     color: var(--cor-terciaria);
 }
 
 .portfolio__descricao__alerta {
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: bold;
     color: var(--cor-terciaria);
 }
@@ -261,16 +261,21 @@ body{
 @media(max-width: 1200px){
 
 .cabecalho{
-        padding: 10%;
+    width: auto;
+    padding: 5%;
 }
 
 .cabecalho__menu{
+    display: flex;
     justify-content: center;
+    text-align: center;
+    gap: auto;
+    justify-content: center;
+    
 }
 
 .cabecalho__menu__link{
-    font-size: 1.0rem;
-
+    font-size: 1rem;
 }
 
 .apresentacao{
@@ -281,4 +286,31 @@ body{
 .apresentacao__conteudo{
     width: auto;
 }
+
+.apresentacao__links__navegacao{
+    gap: 8px;
+    border:3px solid var(--cor-secundaria);
+    width: 50%;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 10px 8px; 
+}
+
+.imagem__certificado{
+    width: 400px;
+    height: 200px;
+}
+
+.portfolio__item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.portfolio__imagem {
+    width: 100%;
+    height: auto;
+}
+
+
 }
